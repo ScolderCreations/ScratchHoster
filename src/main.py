@@ -12,7 +12,7 @@ except:
   except:
     exec('^^^^')
 md5.update(file)
-hash = md5.digesthex()
+hash = md5.hexdigest()
 if ".png" in inpat:
   finalhash = hash + ".png"
 elif ".jpg" in inpat or "jpeg" in inpat:
