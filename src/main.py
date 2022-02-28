@@ -16,7 +16,7 @@ hash = md5.hexdigest()
 if ".png" in inpat:
   finalhash = hash + ".png"
 elif ".jpg" in inpat or "jpeg" in inpat:
-  finalhash = hash + ".jpg"
+  finalhash = hash + ".jpeg"
 elif ".gif" in inpat:
   finalhash = hash + ".gif"
 else:
