@@ -23,4 +23,4 @@ else:
   print("could not find image file extension")
 requests.post(f"https://assets.scratch.mit.edu/${finalhash}", file)
 print(f"\nhttps://assets.scratch.mit.edu/get_image/${finalhash}")
-print("\nis your hash")
+print("\nis your link")
