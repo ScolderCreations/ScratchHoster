@@ -10,7 +10,7 @@ except:
     try:
       quit()
     except:
-      exec('^^^^')
+      raise
 md5.update(file)
 hash = md5.hexdigest()
 if ".png" in inpat:
